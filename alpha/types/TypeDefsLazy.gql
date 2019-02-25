@@ -1,0 +1,15 @@
+module.exports = `
+scalar ZipCodeResult
+scalar WeatherResult
+scalar RepresentativesResult
+
+type ResultSet {
+    usps: ZipCodeResult,
+    weather: WeatherResult
+    reps: [RepresentativesResult]
+}
+
+type Query {
+    lookup(zipcode: String): ResultSet
+}
+`;
