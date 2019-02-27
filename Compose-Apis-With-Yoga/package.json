@@ -7,7 +7,7 @@
     "image": "mdx-deck screenshot deck.mdx",
     "help": "mdx-deck"
   },
-  "name": "Compose-Apis-With-Yoga",
+  "name": "compose-apis-with-yoga",
   "version": "1.0.0",
   "dependencies": {
     "mdx-deck": "^1.6.7",
