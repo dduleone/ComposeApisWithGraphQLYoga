@@ -1,13 +1,11 @@
 const fetch = require('node-fetch');
+const {getRepresentativesRequest} = require('./common-headers');
+
 module.exports = async (zipcode) => {
-    const url = `https://whoismyrepresentative.com/getall_mems.php?zip=${zipcode}&output=json`;
+    const api = `https://whoismyrepresentative.com`;
+    const url = `${api}/getall_mems.php?zip=${zipcode}&output=json`;
     
-    const params = {
-        "headers": {
-            "accept": "application/json, text/javascript, */*; q=0.01",
-        },
-        "method": "GET",
-    };
+    const params = getRepresentativesRequest();
     
     return await fetch(url, params)
         .then(response => response.json())

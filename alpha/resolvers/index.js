@@ -1,6 +1,6 @@
-const getUsps = require('./apis/getUsps');
-const getWeather = require('./apis/getWeather');
-const getRepresentatives = require('./apis/getRepresentatives');
+const getUsps = require('../apis/getUsps');
+const getWeather = require('../apis/getWeather');
+const getRepresentatives = require('../apis/getRepresentatives');
 
 module.exports = {
     Query: {
