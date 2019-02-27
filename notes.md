@@ -253,3 +253,39 @@ http://api.openweathermap.org/data/2.5/weather?zip=08002,us&apikey=cdb2fb4e56b8b
   id: 420025304,
   name: 'New Brunswick',
   cod: 200 }
+
+
+
+
+
+
+
+- Title
+- Thanks
+- What is Yoga?
+- How to Install?
+- Parts of a Yoga Server
+
+- Type Definitions
+- Resolvers
+- Why do I think it's cool?
+- Case Study
+- Let me show you...
+
+- Lazy Type Definitions
+- JavaScript Overview
+- JavaScript Framework
+- JavaScript Client API (Federal Reps)
+- JavaScript Client API (USPS)
+
+- JavaScript Client API (Weather)
+- Show Full Source
+- See It In Action
+- Final Project Structure
+- Next Steps
+
+- Pros & Cons
+- Alternatives
+- Summary
+- First Talk
+- Questions?
